@@ -1,9 +1,9 @@
-# Detailed Engineering Report: Preliminary Conceptual Design of a Ground-Based LEO Tracking Radar
+# Detailed Engineering Report: Preliminary System-Level Design for Ground-to-LEO Architectures
 
 ## Executive Summary
 This report documents the engineering approach used to develop a preliminary conceptual design for a ground-based monostatic radar capable of detecting and tracking small LEO objects between 500 km and 800 km altitude. The design target is a metallic spherical object of approximately 10 cm diameter. The assessment requirements include detection, acquisition, continuous tracking, range estimation, radial velocity estimation, angular position estimation, and orbit-determination support.
 
-The problem was approached as a system-engineering exercise rather than as an attempt to produce a production-ready radar. The work was decomposed into requirements, frequency selection, waveform design, link budget, antenna, transmitter, receiver, signal processing, tracking, orbit determination, and sensitivity analysis. The resulting preliminary architecture uses **3 GHz operation**, a **15 MHz LFM waveform**, a **16 m parabolic reflector**, and **15 kW peak RF power**.
+The problem was approached as a systems engineering exercise rather than as an attempt to produce a production-ready radar. The work was decomposed into requirements, frequency selection, waveform design, link budget, antenna, transmitter, receiver, signal processing, tracking, orbit determination, and sensitivity analysis. The resulting preliminary architecture uses **3 GHz operation**, a **15 MHz LFM waveform**, a **16 m parabolic reflector**, and **15 kW peak RF power**.
 
 At the 800 km design point, the preliminary link budget gives approximately **15.2 dB ideal processed SNR**. After allocating 5 dB for implementation and processing losses, approximately **10.2 dB effective margin** remains. The 15 MHz waveform provides **10 m theoretical range resolution** and approximately **0.094 m/s theoretical velocity resolution** for the assumed coherent processing interval.
 
