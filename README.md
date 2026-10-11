@@ -1,5 +1,5 @@
-# LEO-Tracking-Radar-System-Design
-# Preliminary Conceptual Design of a 3 GHz Ground-Based LEO Tracking Radar
+# S-Band Space Payload Tracking & Link Budget Design
+# Preliminary System-Level Design for Ground-to-LEO Architectures
 
 ![Domain](https://img.shields.io/badge/Domain-RF%20%26%20Radar%20Systems-blue)
 ![Platform](https://img.shields.io/badge/Application-LEO%20Space%20Debris%20Tracking-orange)
